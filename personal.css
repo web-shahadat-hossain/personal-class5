@@ -1,3 +1,60 @@
-h1 {
-  color: red;
+/* common style start here  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+p {
+  font-size: 18px;
+  width: 622px;
+  color: #646464;
+  line-height: 28px;
+  margin-bottom: 36px;
+}
+.btn {
+  width: 170px;
+  height: 62px;
+  border-radius: 100px;
+  background-color: #ed1e79;
+  border: none;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* banner style  */
+
+.banner_section {
+  background-color: #f5f5f5;
+}
+.container {
+  display: flex;
+  width: 1322px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding-top: 115px;
+}
+.container h1 {
+  font-size: 80px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 24px;
+}
+.banner_section img {
+  width: 100%;
+}
+.banner_section h1 span {
+  color: #662d8c;
+}
+.banner_content {
+  width: 60%;
+}
+.banner_content h4 {
+  color: #ed1e79;
+  text-transform: uppercase;
+}
+.banner_img {
+  width: 40%;
 }
