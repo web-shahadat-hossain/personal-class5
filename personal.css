@@ -5,12 +5,13 @@
   box-sizing: border-box;
   font-family: "Outfit", sans-serif;
 }
-p {
+.para {
   font-size: 18px;
   width: 622px;
   color: #646464;
   line-height: 28px;
   margin-bottom: 36px;
+  text-align: justify;
 }
 .btn {
   width: 170px;
@@ -23,20 +24,47 @@ p {
   font-weight: 500;
 }
 
-/* banner style  */
-
-.banner_section {
-  background-color: #f5f5f5;
+.btn i {
+  margin-left: 10px;
 }
+
 .container {
   display: flex;
   width: 1322px;
   margin: 0 auto;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  gap: 20px;
+}
+
+h2 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #1f0d2b;
+  margin-bottom: 24px;
+}
+h2 span {
+  color: #662d8c;
+}
+
+.btn2 {
+  width: 170px;
+  height: 27px;
+  background-color: #ed1e79;
+  border: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+
+/* banner style  */
+
+.banner_section {
+  background-color: #f5f5f5;
   padding-top: 115px;
 }
-.container h1 {
+
+.banner_section h1 {
   font-size: 80px;
   text-transform: uppercase;
   color: #000000;
@@ -57,4 +85,78 @@ p {
 }
 .banner_img {
   width: 40%;
+}
+
+/* about style  */
+.about {
+  margin-top: 100px;
+}
+.about img {
+  width: 100%;
+}
+
+/* services start  */
+.section_services {
+  margin: 120px 0;
+}
+
+.services_box div {
+  width: 33%;
+  background-color: #f4f6fd;
+  padding: 38px 45px;
+  text-align: center;
+}
+
+.services_box img {
+  margin-bottom: 24px;
+}
+.services_box h3 {
+  color: #1f0d2a;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.services_box p {
+  font-size: 16px;
+  color: #6a6d7a;
+  font-family: 400;
+}
+
+/* contact style  */
+
+.contact {
+  background-image: url(images/bg.png);
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.contact_box p {
+  width: 541px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  /* or 178% */
+
+  color: #6a6d7a;
+  margin-bottom: 32px;
+}
+
+.contact_box button {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #ed1e79;
+  border: none;
+  color: #ffffff;
+}
+.contact_info {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.contact_info small {
+  color: #662d8c;
 }
